@@ -5,7 +5,6 @@
 		</fileset>
 	</path>
 
-Modify Code
 
 	<target name="clean">
 		<delete dir="build" />
@@ -26,7 +25,6 @@ Modify Code
 		</jar>
 	</target>
 
-Irrelevant data
 	
 	<target name="run" depends="compile">
 		<java jar="build/jar/xunit-example.jar" fork="true" />
