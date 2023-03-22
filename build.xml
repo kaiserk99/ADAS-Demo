@@ -5,7 +5,8 @@
 		</fileset>
 	</path>
 
-
+//Additional information
+	
 	<target name="clean">
 		<delete dir="build" />
 	</target>
